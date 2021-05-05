@@ -1,7 +1,5 @@
 import "../styles.css";
-import Header from "../components/Header";
-import Content from "../components/Content";
-import { ThemeProvider } from "@material-ui/styles";
+
 import theme from "../theme.tsx";
 import { CssBaseline, Box, makeStyles } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
